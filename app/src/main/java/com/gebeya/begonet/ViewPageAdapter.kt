@@ -23,8 +23,8 @@ return images.size
     override fun instantiateItem(container: ViewGroup, position: Int): Any {
         layoutInflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
         val v = layoutInflater!!.inflate(R.layout.activity_main, null)
-        val image = v.findViewById<View>(R.id.homeScreenImage) as ImageView
-        image.setImageResource(images[position])
+       // val image = v.findViewById<View>(R.id.homeScreenImage) as ImageView
+   //     image.setImageResource(images[position])
         val vp = container as ViewPager
         vp.addView(v,0)
         return v

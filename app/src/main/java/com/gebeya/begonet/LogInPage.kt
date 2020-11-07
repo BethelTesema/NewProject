@@ -44,6 +44,11 @@ class LogInPage : BaseActivity() {
             startActivity(intent)
         }
 
+        ifNGO.setOnClickListener {
+
+            val intent = Intent(this, NGOHome::class.java)
+            startActivity(intent)
+        }
         skipButton.setOnClickListener {
 
             val intent = Intent(this, Home::class.java)

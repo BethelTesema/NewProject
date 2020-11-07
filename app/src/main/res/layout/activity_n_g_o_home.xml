@@ -14,7 +14,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-
     </androidx.appcompat.widget.Toolbar>
 
     <ImageView
@@ -96,7 +95,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="61dp" />
+        app:layout_constraintGuide_end="598dp" />
 
     <TextView
         android:id="@+id/projectTitle"
@@ -123,20 +122,33 @@
         app:layout_constraintTop_toTopOf="@id/horizontalGL" />
 
     <TextView
-        android:id="@+id/editProject"
+        android:id="@+id/editProjectDescription"
         android:layout_width="43dp"
         android:layout_height="25dp"
         android:layout_marginStart="96dp"
         android:layout_marginLeft="96dp"
         android:layout_marginTop="116dp"
         android:text="Edit"
-        android:textColor="@color/black"
+        android:textColor="@color/colorAccent"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/cardView" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/editProjectTitle"
+        android:layout_width="43dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="60dp"
+        android:text="Edit"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/horizontalGL" />
+
+    <TextView
+        android:id="@+id/joinedMembers"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -217,6 +229,7 @@
         app:layout_constraintTop_toBottomOf="@id/horizontalCenter" />
 
     <TextView
+        android:id="@+id/monetaryResource"
         android:layout_width="360dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
@@ -230,6 +243,7 @@
         app:layout_constraintTop_toBottomOf="@id/horizontalCenter" />
 
     <TextView
+        android:id="@+id/professionals"
         android:layout_width="360dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
@@ -243,6 +257,7 @@
         app:layout_constraintTop_toBottomOf="@id/horizontalCenter" />
 
     <TextView
+        android:id="@+id/socialWorkers"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
@@ -255,6 +270,7 @@
         app:layout_constraintTop_toBottomOf="@id/horizontalCenter" />
 
     <TextView
+        android:id="@+id/trainers"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
@@ -267,6 +283,7 @@
         app:layout_constraintTop_toBottomOf="@id/horizontalCenter" />
 
     <TextView
+        android:id="@+id/labor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
@@ -279,6 +296,7 @@
         app:layout_constraintTop_toBottomOf="@id/horizontalCenter" />
 
     <TextView
+        android:id="@+id/visibilityItems"
         android:layout_width="360dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
@@ -292,6 +310,7 @@
         app:layout_constraintTop_toBottomOf="@id/horizontalCenter" />
 
     <TextView
+        android:id="@+id/value1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="260dp"
@@ -340,6 +359,7 @@
         app:layout_constraintTop_toBottomOf="@id/horizontalCenter" />
 
     <TextView
+        android:id="@+id/qty1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="192dp"
@@ -352,6 +372,7 @@
         app:layout_constraintTop_toBottomOf="@id/horizontalCenter" />
 
     <TextView
+        android:id="@+id/qty2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="192dp"
@@ -364,6 +385,7 @@
         app:layout_constraintTop_toBottomOf="@id/horizontalCenter" />
 
     <TextView
+        android:id="@+id/qty3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="192dp"

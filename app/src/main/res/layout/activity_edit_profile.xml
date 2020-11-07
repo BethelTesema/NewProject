@@ -107,18 +107,18 @@
 
     <TextView
         android:id="@+id/aboutVolunteer"
+        style="@style/black_label"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Hi! I am Nebiyu Z, I'm a creative geek from San Francisco, Contact me at Nebz@begonet.com"
-        style="@style/black_label"
         android:lineSpacingExtra="3dp"
+        android:text="@string/volunteer_profile_description"
         app:layout_constraintEnd_toEndOf="@id/guidelineRight"
         app:layout_constraintStart_toStartOf="@+id/guidelineVertical"
         app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
     <TextView
-        android:id="@+id/editText"
+        android:id="@+id/editDescription"
         style="@style/black_label.small"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

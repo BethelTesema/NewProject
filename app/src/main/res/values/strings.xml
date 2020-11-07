@@ -39,6 +39,34 @@
         <item>Amharic</item>
         <item>Arabic</item>
     </string-array>
+    <string name="welcome_1_title">Save the Children</string>
+    <string name="welcome_1_description">Save the Children is the world\'s leading independent organisation for children. We work in around 120 countries. We save children\'s lives; we fight for their rights; we help them fulfil their potential</string>
+    <string name="owner_one">Eglantyne Jebb</string>
+
+    <string name="welcome_3_title">YMCCD</string>
+    <string name="welcome_3_description">Yezelalem Minch Children and Community Development (YMCCD) is a local, non-profit, non-governmental organization that seeks to provide comprehensive care for orphaned and vulnerable children.</string>
+    <string name="owner_three">Birtukan Sinishaw</string>
+
+    <string name="welcome_2_title">Misrach Center</string>
+    <string name="welcome_2_description">Misrach Training and Rehabilitation Center aims at providing skills training for Persons with Disabilities (PwDs). It provides vocational training in wood and metalwork, broom making, tailoring and optical works.</string>
+    <string name="owner_two">Zena Wengel</string>
+
+    <string-array name="welcome_titles">
+        <item>@string/welcome_1_title</item>
+        <item>@string/welcome_2_title</item>
+        <item>@string/welcome_3_title</item>
+    </string-array>
+    <string-array name="welcome_descriptions">
+        <item>@string/welcome_1_description</item>
+        <item>@string/welcome_2_description</item>
+        <item>@string/welcome_3_description</item>
+    </string-array>
+    <string-array name="project_owner">
+        <item>@string/owner_one</item>
+        <item>@string/owner_two</item>
+        <item>@string/owner_three</item>
+    </string-array>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="setting_page">Setting</string>
@@ -57,4 +85,12 @@
     <string name="national_theater_of_ethiopia">National Theater of Ethiopia</string>
     <string name="join_now">Join Now</string>
     <string name="_132_joined">132 Joined</string>
+    <string name="volunteer_profile_description">Hi! I am Nebiyu Z, I\'m a creative geek from San Francisco, Contact me at Nebz@begonet.com</string>
+
+    <string-array name="choose_project">
+        <item>Save the Children</item>
+        <item>YMCCD</item>
+        <item>Misrach Center</item>
+        <item>Save the young</item>
+    </string-array>
 </resources>
